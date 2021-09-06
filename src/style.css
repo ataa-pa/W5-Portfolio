@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #202020;
+  --secondary-color: #fff;
+  --primary-font: "Roboto";
+  --secondary-font: "Montserrat";
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding-left: 125px;
+  padding-right: 125px;
+  position: relative;
+  top: 0;
+}
+.nav-link {
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+.text-content {
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  position: relative;
+  margin-top: -625px;
+  text-align: center;
+}
+.text-content h2 {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.text-content h1 {
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 84px;
+  text-transform: uppercase;
+}
+.text-content p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 460px;
+}
+.text-content a {
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  color: #272142;
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 17px;
+  margin: 35px 10px 0 10px;
+  padding: 18px 40px;
+  text-transform: uppercase;
+}
+
+.photo-work {
+  margin-bottom: 60px;
+}
+.photo-content {
+  margin-top: 100px;
+}
+.photo-row {
+  margin: 0 40px 40px 0;
+}
