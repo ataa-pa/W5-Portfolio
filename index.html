@@ -12,186 +12,64 @@
     ></script>
 
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
 
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="/src/style.css" />
-
+    <link rel="stylesheet" href="/src/styles.css" />
     <title>Home</title>
   </head>
-
-  <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark m-3 px-1">
-        <a class="navbar-brand" href="#">
-          <img src="/images/She Codes.png" alt="She Codes" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end float-md-end"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/index.html">Home</a>
-            <a class="nav-item nav-link" href="/about.html">About</a>
-            <a class="nav-item nav-link" href="/gallery.html">Gallery</a>
-            <a class="nav-item nav-link" href="/contact.html">Contact</a>
+  <body class="home-body">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/images/She Codes.png" alt="She Codes" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
           </div>
         </div>
       </nav>
     </div>
 
-    <div class="background-home text-center">
-      <img src="/images/bg.png" alt="Shelley White" class="img-fluid" />
-    </div>
-
-    <div class="text-content">
-      <h2 class="home-h2">SHELLEY WHITE</h2>
-      <h1 class="home-h1 mt-4">PHOTOGRAPHY</h1>
-      <p class="home-p mt-4">
-        Nisl faucibus quis urna nibh ut amet. Diam suscipit pretium massa,
-        sollicitudin in risus in. Sagittis.
-      </p>
-      <a class="btn btn-branding" href="#">GET STARTED</a>
-    </div>
-
-    <!-- <div class="photo-work">
-      <div class="container photo-content p-0">
-        <div class="row">
-          <div class="col-auto photo-row p-0">
-            <img
-              src="/images/Rectangle 107.png"
-              alt="Image01"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-auto photo-row p-0">
-            <img
-              src="/images/Rectangle 108.png"
-              alt="Image02"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-auto p-0">
-            <img
-              src="/images/Rectangle 109.png"
-              alt="Image03"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-auto photo-row p-0">
-            <img
-              src="/images/Rectangle 107-1.png"
-              alt="Image04"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-auto photo-row p-0">
-            <img
-              src="/images/Rectangle 108-1.png"
-              alt="Image05"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-auto p-0">
-            <img
-              src="/images/Rectangle 109-1.png"
-              alt="Image06"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-auto photo-row p-0">
-            <img
-              src="/images/Rectangle 107-2.png"
-              alt="Image07"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-auto photo-row p-0">
-            <img
-              src="/images/Rectangle 108-2.png"
-              alt="Image08"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-auto p-0">
-            <img
-              src="/images/Rectangle 109-2.png"
-              alt="Image09"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-auto photo-row p-0">
-            <img
-              src="/images/Rectangle 107-3.png"
-              alt="Image10"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-auto photo-row p-0">
-            <img
-              src="/images/Rectangle 108-3.png"
-              alt="Image11"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col-auto p-0">
-            <img
-              src="/images/Rectangle 109-3.png"
-              alt="Image12"
-              class="img-fluid"
-            />
-          </div>
-        </div>
+    <div class="heading">
+      <div class="text-center text-header">
+        <h2>SHELLEY WHITE</h2>
+        <h1>PHOTOGRAPHY</h1>
+        <p>
+          Nisl faucibus quis urna nibh ut amet. Diam suscipit pretium massa,
+          sollicitudin in risus in. Sagittis.
+        </p>
+        <a class="btn btn-branding" href="#">GET STARTED</a>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
