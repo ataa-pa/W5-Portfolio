@@ -22,6 +22,10 @@ body {
 .navbar-nav a {
   color: var(--secondary-color);
 }
+.navbar-nav a:hover {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
 
 .heading {
   background-image: url("/images/bg.png");
@@ -130,6 +134,18 @@ body {
   text-transform: initial;
 }
 
+.gallery {
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 84px;
+  margin-top: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @media (max-width: 576px) {
   .text-header {
     padding: 195px 40px;
@@ -138,7 +154,7 @@ body {
     font-size: 40px;
   }
   .photo-content {
-    padding-top: 50px;
+    padding-top: 30px;
   }
   .image-row {
     justify-content: center;
@@ -163,5 +179,8 @@ body {
   }
   .camera-info h3 {
     margin: 0;
+  }
+  .gallery {
+    font-size: 36px;
   }
 }
