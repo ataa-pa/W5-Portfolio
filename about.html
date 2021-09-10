@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Shelley White's Photography Portfolio" />
+    <meta name="description" content="About Shelley White" />
 
     <script
       src="https://kit.fontawesome.com/92d29d1539.js"
@@ -12,64 +12,118 @@
     ></script>
 
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
 
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/styles.css" />
 
     <title>About</title>
   </head>
 
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg m-3 px-1">
-        <a class="navbar-brand" href="#">
-          <img src="/images/She Codes.png" alt="She Codes" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/index.html">Home</a>
-            <a class="nav-item nav-link active" href="/about.html">About</a>
-            <a class="nav-item nav-link" href="/gallery.html">Gallery</a>
-            <a class="nav-item nav-link" href="/contact.html">Contact</a>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/images/She Codes.png" alt="She Codes" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" href="/index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="/about.html"
+                >About</a
+              >
+              <a class="nav-link" href="/gallery.html">Gallery</a>
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </div>
           </div>
         </div>
       </nav>
+    </div>
+
+    <div class="container about-page">
+      <div class="row mt-5">
+        <div class="col-md-6 about-image">
+          <img src="/images/portrait.png" alt="portrait" class="img-fluid" />
+        </div>
+
+        <div class="col-md-6 mt-4 about-text">
+          <h3>ABOUT ME</h3>
+          <h1>SHELLEY WHITE</h1>
+          <p>
+            Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa
+            sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut
+            amet diam suscipit pretium massa, sollicitudin in risus in.
+            Sagittis.
+          </p>
+
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <h3>MY CAMERA</h3>
+
+          <div class="camera-info mb-5">
+            <img
+              src="/images/camera.png"
+              alt="Camera"
+              class="img-fluid d-md-inline d-none"
+            />
+            <h3 class="d-inline">Olympus PEN-F Camera Mirrorless</h3>
+          </div>
+
+          <a class="btn btn-branding" href="#">CONTACT ME</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container photo-content">
+      <div class="row justify-content-center">
+        <div class="col-md-auto p-0 image-row">
+          <img
+            src="/images/Rectangle 107.png"
+            alt="image 02"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-auto p-0 image-row">
+          <img
+            src="/images/Rectangle 108.png"
+            alt="image 02"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-auto p-0 image-row">
+          <img
+            src="/images/Rectangle 109.png"
+            alt="image 03"
+            class="img-fluid"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
