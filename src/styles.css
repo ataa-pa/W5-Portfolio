@@ -161,10 +161,12 @@ body {
 
 @media (max-width: 576px) {
   .text-hero {
+    justify-content: center;
     padding: 195px 40px;
   }
   .text-hero h1 {
     font-size: 40px;
+    text-align: center;
   }
   .photo-content {
     padding-top: 30px;
@@ -196,6 +198,7 @@ body {
   .gallery {
     font-size: 36px;
   }
+
   .header {
     font-size: 36px;
     margin-bottom: 50px;
