@@ -19,12 +19,39 @@ body {
   font-weight: 500;
   line-height: 19px;
 }
+.navbar-brand {
+  margin: 20px 0;
+}
 .navbar-nav a {
   color: var(--secondary-color);
 }
 .navbar-nav a:hover {
   color: var(--secondary-color);
   font-weight: bold;
+}
+
+.bottom-nav {
+  margin: auto;
+  max-width: 100%;
+}
+.last-nav {
+  display: flex;
+  height: 100px;
+  padding: 37.5px 0;
+}
+.footer {
+  background-color: #282323;
+  height: 100px;
+  padding: 0 160px;
+}
+.footer p {
+  color: var(--secondary-color);
+  text-align: right;
+}
+.social-media a {
+  color: var(--secondary-color);
+  display: inline-block;
+  margin: 0 30px;
 }
 
 .hero {
@@ -160,6 +187,22 @@ body {
 }
 
 @media (max-width: 576px) {
+  .footer {
+    padding: 25px;
+    text-align: justify;
+  }
+
+  .footer a {
+    text-align: right;
+    margin: 0 15px;
+  }
+  .last-nav {
+    margin: 0;
+    padding: 0;
+  }
+  .bottom-nav {
+    position: relative;
+  }
   .text-hero {
     justify-content: center;
     padding: 195px 40px;
