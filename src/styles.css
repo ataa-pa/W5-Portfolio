@@ -27,21 +27,21 @@ body {
   font-weight: bold;
 }
 
-.heading {
+.hero {
   background-image: url("/images/bg.png");
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.text-header {
+.text-hero {
   color: var(--secondary-color);
   font-family: var(--primary-font);
   padding: 295px 0;
   text-transform: uppercase;
 }
 
-.text-header h2 {
+.text-hero h2 {
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 2px;
@@ -50,7 +50,7 @@ body {
   text-align: center;
 }
 
-.text-header h1 {
+.text-hero h1 {
   font-size: 72px;
   font-weight: bold;
   letter-spacing: 6px;
@@ -58,7 +58,7 @@ body {
   margin-bottom: 30px;
 }
 
-.text-header p {
+.text-hero p {
   font-size: 18px;
   line-height: 30px;
   margin: 0 auto;
@@ -91,7 +91,7 @@ body {
 .about-text {
   color: var(--secondary-color);
   font-family: var(--primary-font);
-  padding-left: 40px;
+  padding-left: 28px;
   padding-right: 56px;
 }
 .about-text h3 {
@@ -134,7 +134,7 @@ body {
   text-transform: initial;
 }
 
-.gallery {
+.header {
   color: var(--secondary-color);
   font-family: var(--primary-font);
   font-size: 72px;
@@ -142,36 +142,49 @@ body {
   letter-spacing: 2px;
   line-height: 84px;
   margin-top: 32px;
+  margin-bottom: 142px;
   text-align: center;
   text-transform: uppercase;
 }
 
+.contact {
+  margin-bottom: 85px;
+}
+
+.contact h3 {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.contact i {
+  margin-right: 10px;
+}
+
 @media (max-width: 576px) {
-  .text-header {
+  .text-hero {
     padding: 195px 40px;
   }
-  .text-header h1 {
+  .text-hero h1 {
     font-size: 40px;
   }
   .photo-content {
     padding-top: 30px;
+    padding-right: 0;
   }
   .image-row {
     justify-content: center;
     margin: 25px;
     text-align: center;
   }
-
-  .about-image {
-    padding: 0;
-  }
   .about-text {
-    justify-content: center;
-    padding: 30px;
+    padding: 25px;
     text-align: center;
   }
   .about-text h1 {
-    font-size: 36px;
+    font-size: 38px;
+  }
+  .about-image {
+    justify-content: center;
+    padding: 0;
   }
   .camera-info {
     display: block;
@@ -182,5 +195,9 @@ body {
   }
   .gallery {
     font-size: 36px;
+  }
+  .header {
+    font-size: 36px;
+    margin-bottom: 50px;
   }
 }
